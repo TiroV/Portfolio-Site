@@ -2,35 +2,40 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta charset="utf-8">
-  <title>Contact Tyler CLark</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+<meta charset="utf-8">
+<title>Contact Tyler CLark</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 
-    <!-- This is the icon code. Currently Wikipedia -->
+<!-- This is the icon code. Currently Wikipedia -->
 
 <link rel="shortcut icon" href="favicon-32x32.png">
 
 
-  <div>
-    <!-- This is the logo -->
-    <img src="https://i.imgur.com/Ilg6qlx.jpg" alt="logo">
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
+<!-- This is the logo -->
+<header class="page-header">
+  <img src="https://i.imgur.com/Ilg6qlx.jpg" alt="logo" class="page-header__item">
+  <nav class="main-navigation page-header__item">
+    <ul role="menubar" class="navigation-list">
+      <li role="presentation">
+        <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+      <li role="presentation">
+        <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
       </li>
-      <li>
-        <a href="about.html">About Me</a>
+
+      <li role="presentation">
+        <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
       </li>
-      <li>
-        <a href="#=contact.html">Contact</a>
+      <li role="presentation">
+        <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
       </li>
     </ul>
-    </div>
+  </nav>
+</header>
 
-    <div>
+<div>
   CareerFoundry GmbH<br>
   Köpenicker Str. 126<br>
   10179 Berlin<br>
@@ -44,16 +49,16 @@
 <div>
   <script src="js/tota11y.min.js"></script>
   <form action="stuff" method="post">
-  <label class="standard-label" for="contact-email">Email: </label>
-  <input type="email" id="contact-email" required>
+    <label class="standard-label" for="contact-email">Email: </label>
+    <input type="email" id="contact-email" required>
 
-  <label for="telephone">
-    telephone
-</label>
-<input id="telephone">
+    <label for="telephone">
+      telephone
+    </label>
+    <input id="telephone">
 
-  <label>Message: </label>
-  <textarea id="message">
+    <label>Message: </label>
+    <textarea id="message">
   <label for="message">
 
 
@@ -62,6 +67,6 @@
   </textarea>
 
 
-  <input type="submit" value="Send message">
-</form>
+    <input type="submit" value="Send message">
+  </form>
 </div>

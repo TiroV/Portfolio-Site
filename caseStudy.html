@@ -58,7 +58,7 @@
     </p>
 
     <h1>Process</h1>
-    <h2>Client-Side</h2>
+    <h2>Client-Side:</h2>
     <p>
         The process began with organizing much of the basic setup of Angular. Installing different frameworks and
         organizing files in such a way to build the basic steps of the application.
@@ -84,7 +84,58 @@
             their favorites which can be accessed on their profile</li>
     </ul>
 
-    <h2>Client-Side</h2>
+    <h2>Server-Side:</h2>
+    <p>
+        After the setup of the front end to support the endpoints, I began linking the back end created in a previous
+        project to the new functions that were required to make it run. For example,
+    </p>
+    <img src="https://i.imgur.com/WtFGAMR.png" alt="functionGetFavoriteMovies" class="function_getMovies">
+
+
+    <p>
+        This is a function that returns a user's favorite movie, annotated with comments to keep things clean and
+        readable while also informing its' purpose.
+        It gets the endpoint (users/:Username/movies/:MovieID)
+        from the API's code for use on the front end to display that information.
+        In this case, we're dealing with favorite movies.
+    </p>
+    <img src="https://i.imgur.com/H9RLGXw.png" alt="movieEndPoints" class="function_endPoints">
+
+    <h2>Full Stack</h2>
+    <p>
+        The final stretch of putting this application together was mostly additions similar to the example shown above.
+        Most pieces were implemented without much incident, aside from displaying the user's information. I had to
+        modify the endpoints on the back end to properly display the user's birthday. With that feature done, the
+        application was finished!
+    </p>
+    <img src="https://i.imgur.com/XEIY0FN.png" alt="profileInfo" class="function_endPoints">
+
+    <h1>Conclusions:</h1>
+    <h2>Challenges faced:</h2>
+    <p>
+        When beginning the project, The API hosted on Heroku and on MongoDB were both hosting the information properly
+        but were not working when I started testing the Angular application. This was a long standing challenge to find
+        a solution for.
+        I did a clean reset to both systems, re-hooked them back together and and deployed new versions of all of them.
+        It was here that I learned that file hosting platforms have to be constantly watched over and maintained in
+        order for them to stay online and operational. Otherwise, one piece will fall offline and render the entire
+        project unusable. There are many unseen pitfalls of web development that have to be fallen into in order to
+        learn the important minutiae that more experienced developers take as given.
+    </p>
+
+    <h2>Reflections</h2>
+    <p>
+        Reflections:
+        Learning angular while also trying to integrate it into an old project made for one of the most difficult coding
+        challenges I've ever faced. A few parts of my older project had to be re-done in the service of making it a
+        smoother experience to use when dealing with the front end.
+        There's a lot that I learned when making a template / design document for this project, and I likely would have
+        done a lot different had I the chance to re-do it again. That's the beauty of learning new things when making a
+        project!
+        You begin to understand the practical upsides of “best practices” and why something is done the way it is.
+        Seeing them work in tandem was motivational and made me excited for what I can make in the future. I'm glad that
+        I have this project behind me as I feel it will be a valuable piece to speak about at a later time.
+    </p>
 
 </section>
 

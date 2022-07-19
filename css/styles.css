@@ -2,21 +2,26 @@
   --primary-color: #357b70;
   --secondary-color: #e0b354;
   --dark-grey: #2b2b2b;
+
 }
 
 
 
 body {
-  background-color: #a17a77;
+  background-color: #dad3d2;
 }
 
 body {
   font-family: 'Gemunu Libre', sans-serif;
   font-weight: 600;
-  font-size: 25px;
   /* Sets the font size to 25px */
-  line-height: 1.6;
+  font-size: 25px;
   /* Sets the line-height to 1.6 */
+  line-height: 1.6;
+  /* Sets the margin to 150px on the left */
+  margin-left: 150px;
+
+
 }
 
 h1 {
@@ -33,6 +38,7 @@ h3 {
   font-size: 18px;
   font-weight: 700;
 }
+
 
 
 a {
@@ -89,9 +95,10 @@ button:focus {
 
 .profile__portrait {
   float: left;
-  width: 250px;
+  width: 200px;
   margin-right: 40px;
-  border-radius: 50%;
+  border-radius: 30%;
+
 }
 
 .profile {
@@ -114,8 +121,12 @@ button:focus {
 .page-header {
   display: flex;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
+  background: #d1c2c288;
+  border-radius: 25px;
+
 }
+
 
 .page-header__item {
   flex: 0 1 200px;
@@ -139,6 +150,7 @@ button:focus {
 
 .grid__item {
   background-color: lightgray;
+
 }
 
 .grid {

@@ -289,17 +289,18 @@ button:focus,
 
 /* Resume Download Button */
 .resBtn {
-  background-color: #357b70;
+  background-color: #b4a7a788;
   border: none;
   color: white;
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
+
 }
 
 /* Darker background on mouse-over */
 .resBtn:hover {
-  background-color: #235750;
+  background-color: #85767688;
 }
 
 .sun {
